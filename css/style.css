@@ -32,7 +32,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px; 
-
+  
     justify-content: space-between;
     align-items: center;
     
@@ -360,7 +360,7 @@ margin-bottom: 8px;}
     justify-content:center;
     align-items:center;
     gap: 24px;
-    
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .teams-icon:hover {
     background-color: #404BBF;
@@ -401,11 +401,12 @@ margin-bottom: 8px;}
     column-gap: 24px;
     row-gap: 48px;
     justify-content: center;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+    
 }
 .portfolio-list:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
     
 }
 .portfolio-item {
@@ -547,10 +548,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 40px;
 
 }
-.teams-icon .footer:hover {
+.teams-icon-footer:hover {
     background-color: #31d0aa;
 }
-.teams-icon .footer:focus {
+.teams-icon-footer:focus {
     background-color: #31d0aa;
 }
 
