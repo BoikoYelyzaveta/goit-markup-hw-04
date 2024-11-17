@@ -437,7 +437,7 @@ margin-bottom: 8px;}
 
 .overlay{
    position: absolute ;
-   transform: translateY(100%);
+   
    top: 0;
    left: 0;
    width: 100%;
@@ -445,18 +445,14 @@ margin-bottom: 8px;}
    background-color: #4D5AE5;
    padding: 40px 32px;
    display: flex;
-   
+   letter-spacing: 0.02em; 
    font-weight: 400;
    font-size: 16px;
    line-height: 150%;
-   color: #F4F4FD;
+color: #F4F4FD;
 
-/* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 transform: translateY(100%);
-transition-property: transform;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-padding: 40px 32px 164px;
 }
 .overlay:hover{
     transform: translateY(0%);
