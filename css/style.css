@@ -161,7 +161,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     background-size: cover;
     background-color: #2E2F42;
     padding: 188px 0;  
-    margin-bottom: 0 auto;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -531,7 +531,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    font-family: "Roboto", sans-serif;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -549,6 +548,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    font-family: var(--font-family);
 }
 .footer-socials {
     display: flex;
